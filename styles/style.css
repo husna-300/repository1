@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&family=Roboto:ital,wght@0,400;0,700;0,900;1,500;1,700&display=swap');
+*{ padding:0; margin:0;
+     box-sizing: border-box;
+      font-family: sans-serif; }
+header{
+	width: 100%;
+	height: 60px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+nav{
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid grey;
+	box-shadow: 2px 0px 5px grey;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top:0;
+	z-index: 1;
+	background: white;
+}
+.site-name{
+	font-size: 50px;
+	font-weight: bold;
+}
+.menu a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	padding: 10px 20px;
+	margin:5px;
+	font-weight: bold;
+}
+.menu a:last-child{
+	background: black;
+	color: white;
+}
+body{
+    background-color: #d4c1c1;
+}
+.heading{
+    color: blueviolet;
+    font-size: 45px;
+    padding: 10px;
+    margin: 10px;
+    font-family: serif;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 35px;
+    color: black;
+    font-style: italic;
+    margin: 10px;
+    padding: 10px;
+}
+img{
+    padding: 20px;
+    margin: 15px;
+    height: 400px;
+    width: 400px;
+    border-radius: 70px;
+    border: solid  1px white;
+    background-color: white;
+}
+.links{
+    border: solid 3px blue;
+    color: black;
+    text-decoration: none;
+    background-color:aqua;
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+}
+.links:hover{
+    background-color: blueviolet;
+    border: solid 1 px black;
+    font-size: 40px;
+    padding-right: 13px;
+    font-style: italic;
+}
+table,th,tr,td{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px;
+}
+table{
+    width: 70%;
+    height: 50%;
+    background-color: grey;
+}
+tr:nth-child(even){
+    background-color:rgb(71, 107, 160);
+    color: rgb(182, 28, 28);
+    font-style: italic;
+    font-size: 20px;
+}
+td:nth-child(odd){
+    background-color: #5481bb;
+    font-size: 25px;
+    color: rgb(165, 42, 155);
+}
+tr:nth-child(odd){
+    background-color:aqua;
+    font-size: 20px;
+}
+th:hover{
+    color: blue;
+    background-color: #020202;
+    font-size: 40px;
+}
+td:hover:nth-child(even){
+    background-color: #9cac14;
+    font-size: 30px;
+    color: rgb(56, 55, 55);
+}
+td:hover:nth-child(odd){
+    background-color: #990c0c;
+    color: black;
+    font-size: 30px;
+}
+table:hover{
+    background-color: #030303;
+}
